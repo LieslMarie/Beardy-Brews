@@ -1,0 +1,161 @@
+
+
+/**********************
+  Main Content
+**********************/
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffe0a3;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  background-color: #6a2634;
+}
+
+h1,
+h2  {
+  font-family: 'Frijole', cursive;
+  font-size: 3.75em;
+  text-align: center;
+  line-height: 5px;
+  padding-bottom: 25px;
+  color: #e18237;
+}
+
+h3 {
+  font-family: 'Frijole', cursive;
+  text-decoration: underline;
+  padding: 65px 0 10px 0px;
+  font-size: 2em;
+  color: #6a2634;
+}
+
+p {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.25em;
+  color: #6a2634;
+}
+/**********************
+  Navigation
+**********************/
+
+nav {
+  text-align: center;
+  margin: auto;
+  background-color: #943939;
+}
+
+ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+  color: #e18237;
+}
+
+nav li {
+  font-size: 1.25em;
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 500;
+  padding: 15px 10px;
+}
+
+/**********************
+  Classes
+**********************/
+
+/** About Page **/
+
+.img-circle {
+  border-radius: 50%;
+  height: 2.5em;
+  width: 2.5em;
+  padding-top: 5px;
+}
+
+.main-header {
+  background-color: cover;
+}
+
+.main-content {
+  height: 90%;
+}
+
+.cell-1 {
+  padding: 12px 5px 30px 65px;
+  color:  #943939;
+  }
+
+  .taps{
+    padding-top: 75px;
+    padding-left: 50px;
+  }
+
+  .cell-2 {
+    color:  #943939;
+  }
+
+    .shades {
+      padding-top: 15px;
+      padding-left: 65px;
+  }
+
+
+/** Beers Page **/
+
+.beers {
+  text-align: center;
+}
+
+/** Contact Page **/
+
+.contact {
+  text-align: center;
+  text-decoration: none;
+  color: #943939;
+  margin: auto;
+  padding: 10px 50px;
+}
+
+.beerd {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+
+.footer {
+  text-align: center;
+  height: 10%;
+  background-color: #6a2634;
+  color: #e18237;
+}
+/**********************
+  # id
+**********************/
+
+
+
+/**********************
+  Media Queries
+**********************/
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
