@@ -61,6 +61,19 @@ nav li {
   display: inline-block;
 }
 
+a:link {
+  color: #cc5500;
+}
+a:visited {
+  color: #ffe0a3;
+}
+a:hover {
+  color: ##ffa500;
+}
+a:active {
+  color: #e18237;
+}
+
 nav a {
   font-weight: 500;
   padding: 15px 10px;
@@ -128,13 +141,35 @@ nav a {
   padding-bottom: 15px;
 }
 
+.message {
+  height: 150px;
+}
+
+.text {
+  font-size: 1.25em;
+  color: #6a2634;
+  text-decoration: underline;
+}
+
+input[type=submit] {
+  border: 2px solid #6a2634;
+  color: #e18237;
+  background: #943939;
+  border-radius: 3px;
+  display: block;
+  margin: 15px auto;
+  padding: 12px 15px;
+  text-decoration:
+}
 
 .footer {
   text-align: center;
   height: 10%;
   background-color: #6a2634;
   color: #e18237;
+  padding-top: 5px;
 }
+
 /**********************
   # id
 **********************/
