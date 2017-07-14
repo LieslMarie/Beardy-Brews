@@ -148,6 +148,10 @@ nav a {
   padding-left: 25rem;
 }
 
+.orbit-caption {
+  text-align: center;
+  color: #ffe0a3;
+}
 
 /** Contact Page **/
 
@@ -213,7 +217,7 @@ input[type=submit] {
     .cell-2
      {font-size: .85em;}
 
-    
+
   }
 
 /* Medium and up */
