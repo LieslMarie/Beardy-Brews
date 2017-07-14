@@ -20,6 +20,7 @@ h2  {
   font-family: 'Frijole', cursive;
   font-size: 3.75em;
   text-align: center;
+  text-shadow: 5px 5px #943939;
   line-height: 5px;
   padding-bottom: 25px;
   color: #e18237;
@@ -54,24 +55,24 @@ ul {
   margin: 0 10px;
   padding: 0;
   color: #e18237;
+
+  a:link {
+    color: #cc5500;
+  }
+  a:visited {
+    color: #ffe0a3;
+  }
+  a:hover {
+    color: ##ffa500;
+  }
+  a:active {
+    color: #e18237;
+  }
 }
 
 nav li {
   font-size: 1.25em;
   display: inline-block;
-}
-
-a:link {
-  color: #cc5500;
-}
-a:visited {
-  color: #ffe0a3;
-}
-a:hover {
-  color: ##ffa500;
-}
-a:active {
-  color: #e18237;
 }
 
 nav a {
@@ -87,13 +88,14 @@ nav a {
 
 .img-circle {
   border-radius: 50%;
-  height: 2.5em;
-  width: 2.5em;
-  padding-top: 5px;
+  border: 5px solid #e18237;
+  height: 2.65em;
+  width: 2.65em;
 }
 
 .main-header {
   background-color: cover;
+  padding-top: 5px;
 }
 
 .main-content {
@@ -105,18 +107,26 @@ nav a {
   color:  #943939;
   }
 
-  .taps{
+  .beer-taps{
     padding-top: 75px;
     padding-left: 50px;
+  }
+
+  .taps{
+    border: 7px solid #943939;
   }
 
   .cell-2 {
     color:  #943939;
   }
 
-    .shades {
-      padding-top: 15px;
-      padding-left: 65px;
+  .beer-shades {
+    padding-top: 15px;
+    padding-left: 45px;
+  }
+
+  .shades {
+      border: 7px solid #943939;
   }
 
 
@@ -124,6 +134,12 @@ nav a {
 
 .beers {
   text-align: center;
+}
+
+.beerousel{
+.orbit-container {
+    padding-right: 200px;
+  }
 }
 
 /** Contact Page **/
@@ -134,6 +150,10 @@ nav a {
   color: #943939;
   margin: auto;
   padding: 10px 50px;
+}
+
+.foam {
+  border: 7px solid #943939;
 }
 
 .beerd {
@@ -159,7 +179,7 @@ input[type=submit] {
   display: block;
   margin: 15px auto;
   padding: 12px 15px;
-  text-decoration:
+  text-decoration: none;
 }
 
 .footer {
