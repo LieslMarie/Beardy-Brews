@@ -142,7 +142,6 @@ nav a {
   max-width: 70%;
   min-height: 20%;
   max-height: 100%;
-  padding-left: 25em;
 }
 
 
@@ -221,6 +220,22 @@ input[type=submit] {
     a {
        font-size: .75em;
     }
+
+    .taps,
+    .cell-1 {
+      float: right;
+      display: block;
+    }
+
+    .cell-2 {
+      float: left;
+      display: block;
+    }
+
+    .shades,
+    p {
+      display: none;
+    }
 }
 
 @media all and (max-width: 495px) {
@@ -263,6 +278,8 @@ input[type=submit] {
     h3 {
       font-size: 1em;
     }
+
+
 }
 
 @media all and (min-width: 1024px) and (max-width:1350 px) {
