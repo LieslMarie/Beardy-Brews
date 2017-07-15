@@ -61,13 +61,6 @@ nav {
   background-color: #943939;
 }
 
-ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-  color: #e18237;
-}
-
 nav li {
   font-size: 1.25em;
   display: inline-block;
@@ -95,6 +88,13 @@ nav a {
 .main-header {
   background-color: cover;
   padding-top: 5px;
+}
+
+.list {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+  color: #e18237;
 }
 
 .main-content {
@@ -144,6 +144,10 @@ nav a {
   max-height: 100%;
 }
 
+.orbit-container {
+  max-height: auto;
+  max-width: auto;
+}
 
 .orbit-caption {
   text-align: center;
@@ -250,6 +254,11 @@ input[type=submit] {
 
     h3 {
       font-size: .75em;
+    }
+
+    .shades,
+    p {
+      display: none;
     }
 
     a {
