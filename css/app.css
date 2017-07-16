@@ -6,8 +6,11 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #ffe0a3;
-}
+  background-image: url(https://static1.squarespace.com/static/571eed28d51cd40b93b22e04/t/5760802e07eaa0945ca98e92/1465942064712/champagne_bubbles_macro_by_evanduril-d632zpp.jpg?format=1500w);
+  background-position: center;
+  background-repeat: no-repeat;
+  background: cover;
+  }
 
 header {
   background-repeat: no-repeat;
@@ -97,13 +100,14 @@ nav a {
   color: #e18237;
 }
 
+
 .main-content {
   height: 90%;
 }
 
 .cell-1 {
   padding: 12px 5px 30px 65px;
-  color:  #943939;
+  color: #943939;
   }
 
   .beer-taps{
@@ -138,21 +142,39 @@ nav a {
 }
 
 .beerousel{
-  min-width: 20%;
-  max-width: 70%;
-  min-height: 20%;
-  max-height: 100%;
-}
+      box-sizing: border-box;
+      width: 85%;
+      margin: auto;
+    }
 
-.orbit-container {
-  max-height: auto;
-  max-width: auto;
-}
+    .slick-slide {
+      margin: 0px 10px;
+      position: relative;
+    }
 
-.orbit-caption {
-  text-align: center;
-  color: #ffe0a3;
-}
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slide__caption {
+      bottom: 0;
+      min-height: 20px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      z-index: 2;
+      text-align: center;
+      color: #ffe0a3;
+      background-color: #943939;
+      opacity: .6;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
 
 /** Contact Page **/
 
@@ -199,7 +221,6 @@ input[type=submit] {
   height: 10%;
   background-color: #6a2634;
   color: #e18237;
-  padding-top: 5px;
 }
 
 /**********************
