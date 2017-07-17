@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Frijole|Lato" rel="stylesheet">
   </head>
 
-  <!--Body/Main Content of homepage-->
+  <!--Main Header and Navigation-->
 
 <body class="bubbles">
   <header>
@@ -32,17 +32,23 @@
      </nav>
     </div>
  </header>
+
+<!--Third Header-->
+
    <div class="main-content">
     <div class="flex-container align-spaced">
       <div class="primary callout">
-    <div class="large-12 cell">
-      <div class="contact">
-          <h3>Contact Us</h3>
-        </div>
-          <div class="beerd">
-          <img src="img\beerd.png" alt="beer with beard" class="foam"/>
+        <div class="large-12 cell">
+          <div class="contact">
+            <h3>Contact Us</h3>
           </div>
-          <form action="/action_page.php" class="text">
+          <div class="beerd">
+            <img src="img\beerd.png" alt="beer with beard" class="foam"/>
+          </div>
+
+        <!--Form Input-->
+        <div class="text">
+          <form action="/action_page.php" method="post">
             Name:<br>
             <input type="text" name="Name"><br>
             Email:<br>
@@ -52,21 +58,19 @@
             Message:<br>
             <input class="message" type="text" name="message"><br>
            </form>
-           <form>
-             <input type="submit" value="Submit">
-           </form>
+          <div class="button">
+             <button type="submit" onclick="myfunction()">Send</button>
+         </div>
+        </div>
        </div>
       </div>
     </div>
-
-
-
+  </div>
 <!--Footer-->
 
   <div class="footer">
     <footer>&copy; 2017 Beardy Brews</footer>
   </div>
-
 
 <!--Javascript Links-->
 
