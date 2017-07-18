@@ -100,6 +100,9 @@ nav a {
   color: #e18237;
 }
 
+.hover {
+  background-color: #6a2634;
+  }
 
 .main-content {
   height: 90%;
@@ -217,10 +220,14 @@ input[type=submit] {
 }
 
 .footer {
+  position: absolute;
   text-align: center;
-  height: 10%;
   background-color: #6a2634;
   color: #e18237;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  padding: 1rem;
 }
 
 /**********************
@@ -232,7 +239,7 @@ input[type=submit] {
 /**********************
   Media Queries
 **********************/
-@media all and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
     h1,
     h2 {
       font-size: .75em;
@@ -263,7 +270,7 @@ input[type=submit] {
     }
 }
 
-@media all and (max-width: 495px) {
+@media only screen and (max-width: 495px) {
     h1
      {
       font-size: 1.25em;
@@ -287,7 +294,7 @@ input[type=submit] {
     }
 }
 
-@media all and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
     h1,
     h2 {
       font-size: 2em;
@@ -299,7 +306,7 @@ input[type=submit] {
 }
 
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     h1,
     h2 {
       font-size: 2.75em;
@@ -312,7 +319,7 @@ input[type=submit] {
 
 }
 
-@media all and (min-width: 1024px) and (max-width:1350 px) {
+@media only screen and (min-width: 1024px) and (max-width:1350 px) {
 
     h3 {
       font-size: 1em;
