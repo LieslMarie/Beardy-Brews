@@ -19,7 +19,7 @@ $(window).bind("load", function () {
 //alert popup-->
 
 function myfunction(){
-  alert("We will be in touch shortly!")
+  alert("We will get back to you soon. Cheers!")
 };
 
 //mouseover for navigation bar-->
