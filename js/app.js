@@ -33,27 +33,3 @@ $(document).ready(function(){
   });
 });
 //form validation-->
-
-$(document).ready(function () {
-
-    $('.myForm').validate({
-        rules: {
-            name: {
-                required: true,
-                  minLength: 5
-            },
-            email: {
-                required: true,
-                email: true
-              },
-              subject: {
-                  required: true,
-                  minLength: 5
-                },
-                message: {
-                    required: true,
-                    maxWords: 150
-                  }
-                }
-              })
-            });

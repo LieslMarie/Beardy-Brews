@@ -116,21 +116,20 @@ nav a {
   color: #6a2634;
 }
 
-.cell-1 {
-  padding: 12px 5px 30px 65px;
-  color: #943939;
+  .beer-taps{
+    padding-top: 25px;
   }
 
-  .beer-taps{
-    padding-top: 75px;
+  .para1 {
+    padding-top: 10px;
+  }
+
+  .para2{
+    padding-top: 125px;
   }
 
   .taps{
     border: 7px solid #943939;
-  }
-
-  .cell-2 {
-    color:  #943939;
   }
 
   .beer-shades {
@@ -322,8 +321,6 @@ input[type=submit] {
     h3 {
       font-size: 1em;
     }
-
-
 }
 
 @media only screen and (min-width: 1024px) and (max-width:1350 px) {
