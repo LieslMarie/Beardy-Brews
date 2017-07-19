@@ -9,7 +9,7 @@ body {
   background-image: url(https://static1.squarespace.com/static/571eed28d51cd40b93b22e04/t/5760802e07eaa0945ca98e92/1465942064712/champagne_bubbles_macro_by_evanduril-d632zpp.jpg?format=1500w);
   background-position: center;
   background-repeat: no-repeat;
-  background: cover;
+  background-size: cover;
   }
 
 header {
@@ -47,8 +47,8 @@ h3 {
 
 p {
   text-align: center;
-  text-decoration: underline;
-  font-size: 1.25em;
+  text-decoration: none;
+  font-size: 1em;
   color: #6a2634;
 }
 
@@ -108,6 +108,13 @@ nav a {
   height: 90%;
 }
 
+.captions {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.25em;
+  color: #6a2634;
+}
+
 .cell-1 {
   padding: 12px 5px 30px 65px;
   color: #943939;
@@ -115,7 +122,6 @@ nav a {
 
   .beer-taps{
     padding-top: 75px;
-    padding-left: 50px;
   }
 
   .taps{
@@ -128,11 +134,11 @@ nav a {
 
   .beer-shades {
     padding-top: 15px;
-    padding-left: 45px;
+    padding-left: 50px;
   }
 
   .shades {
-      border: 7px solid #943939;
+    border: 7px solid #943939;
   }
 
 

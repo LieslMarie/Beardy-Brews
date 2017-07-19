@@ -16,9 +16,13 @@ $(window).bind("load", function () {
 });
 
 
+//alert popup-->
+
 function myfunction(){
   alert("We will be in touch shortly!")
 };
+
+//mouseover for navigation bar-->
 
 $(document).ready(function(){
   $('li').mouseover(function(){
@@ -28,3 +32,28 @@ $(document).ready(function(){
       $(this).removeClass('hover');
   });
 });
+//form validation-->
+
+$(document).ready(function () {
+
+    $('.myForm').validate({
+        rules: {
+            name: {
+                required: true,
+                  minLength: 5
+            },
+            email: {
+                required: true,
+                email: true
+              },
+              subject: {
+                  required: true,
+                  minLength: 5
+                },
+                message: {
+                    required: true,
+                    maxWords: 150
+                  }
+                }
+              })
+            });
