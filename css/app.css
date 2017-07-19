@@ -214,13 +214,11 @@ nav a {
   text-decoration: underline;
 }
 
-input[type=submit] {
+ .button {
   border: 2px solid #6a2634;
   color: #e18237;
   background: #943939;
   border-radius: 3px;
-  display: block;
-  margin: 15px auto;
   padding: 12px 15px;
   text-decoration: none;
 }
