@@ -10,6 +10,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100%;
+  margin: 0;
   }
 
 header {
@@ -53,6 +55,12 @@ p {
   color: #6a2634;
 }
 
+label {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #6a2634;
+}
+
 img { max-width: 100%; }
 
 /**********************
@@ -78,7 +86,9 @@ nav a {
 /**********************
   Classes
 **********************/
-
+.wrapper {
+  min-height:100%;
+}
 /** About Page **/
 
 .img-circle {
@@ -204,17 +214,15 @@ nav a {
   padding-bottom: 15px;
 }
 
-.message {
-  height: 150px;
+.form {
+  padding-bottom: 20px;
 }
 
-.text {
-  font-size: 1.25em;
-  color: #6a2634;
-  text-decoration: underline;
+.error{
+  visibility: hidden;
 }
 
- .button {
+ .submit {
   border: 2px solid #6a2634;
   color: #e18237;
   background: #943939;
@@ -231,7 +239,7 @@ nav a {
   right: 0;
   bottom: auto;
   left: 0;
-  padding: 1rem;
+  padding: 1em;
 }
 
 /**********************
@@ -239,6 +247,9 @@ nav a {
 **********************/
 
 
+#message {
+  height: 150px;
+}
 
 /**********************
   Media Queries

@@ -18,9 +18,14 @@ $(window).bind("load", function () {
 
 //alert popup-->
 
-function myfunction(){
-  alert("We will get back to you soon. Cheers!")
-};
+$('#myForm')
+  .on('invalid.fndtn.abide', function () {
+    var invalid_fields = $(this).find('[data-invalid]');
+    console.log(invalid_fields);
+  })
+  .on('valid.fndtn.abide', function () {
+    console.log('valid!');
+  });
 
 //mouseover for navigation bar-->
 
