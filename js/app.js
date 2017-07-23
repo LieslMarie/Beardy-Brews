@@ -18,14 +18,16 @@ $(window).bind("load", function () {
 
 //alert popup-->
 
-$('#myForm')
-  .on('invalid.fndtn.abide', function () {
-    var invalid_fields = $(this).find('[data-invalid]');
-    console.log(invalid_fields);
-  })
-  .on('valid.fndtn.abide', function () {
-    console.log('valid!');
-  });
+
+  $(document)
+    .on("forminvalid.zf.abide", function () {
+      var invalid_fields = $(this).find('[data-invalid]');
+      console.log(invalid_fields);
+    })
+    .on("formvalid.zf.abide", function () {
+      alert('Cheers!');
+    });
+
 
 //mouseover for navigation bar-->
 
